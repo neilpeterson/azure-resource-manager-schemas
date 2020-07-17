@@ -59,6 +59,12 @@
                 "$ref": "https://schema.management.azure.com/schemas/2018-03-01/Microsoft.Addons.json#/subscription_resourceDefinitions/supportProviders_supportPlanTypes"
               },
               {
+                "$ref": "https://schema.management.azure.com/schemas/2017-04-19/Microsoft.Advisor.json#/subscription_resourceDefinitions/configurations"
+              },
+              {
+                "$ref": "https://schema.management.azure.com/schemas/2020-01-01/Microsoft.Advisor.json#/subscription_resourceDefinitions/configurations"
+              },
+              {
                 "$ref": "https://schema.management.azure.com/schemas/2017-09-01/Microsoft.Authorization.json#/resourceDefinitions/roleAssignments"
               },
               {
@@ -128,6 +134,9 @@
                 "$ref": "https://schema.management.azure.com/schemas/2018-11-01-preview/Microsoft.Blueprint.json#/unknown_resourceDefinitions/blueprints_versions"
               },
               {
+                "$ref": "https://schema.management.azure.com/schemas/2020-04-01-preview/Microsoft.ChangeAnalysis.json#/subscription_resourceDefinitions/profile"
+              },
+              {
                 "$ref": "https://schema.management.azure.com/schemas/2017-12-30-preview/Microsoft.Consumption.json#/subscription_resourceDefinitions/budgets"
               },
               {
@@ -192,6 +201,9 @@
               },
               {
                 "$ref": "https://schema.management.azure.com/schemas/2020-04-01-preview/Microsoft.EventGrid.json#/unknown_resourceDefinitions/eventSubscriptions"
+              },
+              {
+                "$ref": "https://schema.management.azure.com/schemas/2020-06-01/Microsoft.EventGrid.json#/unknown_resourceDefinitions/eventSubscriptions"
               },
               {
                 "$ref": "https://schema.management.azure.com/schemas/2019-06-01-preview/Microsoft.ManagedNetwork.json#/unknown_resourceDefinitions/scopeAssignments"
@@ -273,6 +285,12 @@
               },
               {
                 "$ref": "https://schema.management.azure.com/schemas/2020-04-01/Microsoft.Support.json#/subscription_resourceDefinitions/supportTickets_communications"
+              },
+              {
+                "$ref": "https://schema.management.azure.com/schemas/2017-04-19/Microsoft.Advisor.json#/subscription_resourceDefinitions/configurations"
+              },
+              {
+                "$ref": "https://schema.management.azure.com/schemas/2020-01-01/Microsoft.Advisor.json#/subscription_resourceDefinitions/configurations"
               }
             ]
           }
